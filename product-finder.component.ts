@@ -106,7 +106,7 @@ export class ProductFinderComponent implements OnInit {
      this.setSubHeader(this.totalProducts);
      this.count = this.totalProducts
    }
-
+// this is changed uo
   setSubHeader(totalProducts: number){    
     this.subHeader = totalProducts + " MATCHING PRODUCTS FOUND";
   }
